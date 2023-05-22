@@ -1,0 +1,239 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --succes: #31D0AA;
+    --text: #434455;
+    --subtitle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --hero-bg: #2E2F42;
+    --white-bg: #ffffff;
+    --modal-bg: #FCFCFC;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--white-bg);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+
+.logo-first {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand);
+
+
+}
+
+
+
+.logo-second {
+
+    color: var(--dark);
+
+
+}
+
+.logo-second-footer {
+    color: var(--light);
+}
+
+.navigation-item a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark)
+}
+
+.navigation-item a:hover {
+    color: var(--pressed-state);
+}
+
+.navigation-item a:focus {
+    color: var(--pressed-state);
+}
+
+.adress {
+    font-style: normal;
+}
+
+
+
+.mail-adress a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text)
+}
+
+.mail-adress a:hover {
+    color: var(--pressed-state);
+}
+
+.mail-adress a:focus {
+    color: var(--pressed-state);
+}
+
+.phone-number a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text)
+}
+
+.phone-number a:hover {
+    color: var(--pressed-state);
+}
+
+.phone-number a:focus {
+    color: var(--pressed-state);
+}
+
+/**--------------- main------------- */
+.hero {
+    background-color: var(--hero-bg);
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-bg);
+}
+
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--white-bg);
+    background-color: var(--primary-brand);
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: var(--pressed-state)
+}
+
+.hero-button:focus {
+    background-color: var(--pressed-state)
+}
+
+
+.typical-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--modal-overlay);
+}
+
+.typical-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+
+
+
+
+.example-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.repeated-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.team-section {
+    background-color: var(--light);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.team-list-item {
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: var(--dark);
+}
+
+.footer-text {
+    color: var(--light);
+}
+
+.filter-button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: var(--light);
+    color: var(--primary-brand);
+}
+
+.filter-button:hover {
+    color: var(--white-bg);
+    background-color: var(--pressed-state);
+}
+
+.filter-button:focus {
+    color: var(--white-bg);
+    background-color: var(--pressed-state);
+}
