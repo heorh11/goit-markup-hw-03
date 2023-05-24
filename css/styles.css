@@ -145,6 +145,7 @@ body {
 /**--------------- main------------- */
 .hero {
     background-color: var(--hero-bg);
+    padding: 188px 0 188px;
 }
 
 .hero-title {
@@ -155,6 +156,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-bg);
+    max-width: 496px;
 }
 
 .hero-button {
@@ -169,6 +171,12 @@ body {
     color: var(--white-bg);
     background-color: var(--primary-brand);
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+
 }
 
 .hero-button:hover {
@@ -177,6 +185,31 @@ body {
 
 .hero-button:focus {
     background-color: var(--pressed-state)
+}
+
+.feature-section {
+    padding: 120px 0 120px;
+
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+
+
+}
+
+.fetures-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-item-title {
+    margin-bottom: 8px
 }
 
 
@@ -198,8 +231,10 @@ body {
 }
 
 
+.example-section {
+    padding-bottom: 120px;
 
-
+}
 
 .example-title {
     font-size: 36px;
@@ -208,7 +243,26 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    margin-bottom: 72px;
 }
+
+.example-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+
+
+.example-item {
+    width: calc((100% - 48px) / 3);
+
+}
+
+
+
+
+
 
 .repeated-title {
     font-size: 36px;
@@ -221,6 +275,7 @@ body {
 
 .team-section {
     background-color: var(--light);
+    padding: 120px 0 120px;
 }
 
 .team-title {
@@ -230,17 +285,39 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
 .team-list-item {
     background-color: #ffffff;
     display: inline-block;
     margin-right: 24px;
+    display: flex;
 
 }
 
 .team-list :last-child {
     margin-right: 0px;
+}
+
+.team-list-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.item-name {
+    padding: 32px 16px 32px;
+
+}
+
+.title-name {
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.position {
+    text-align: center;
 }
 
 .footer {
