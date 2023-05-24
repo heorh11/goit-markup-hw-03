@@ -46,7 +46,7 @@ body {
 }
 
 .principal-navigation {
-    font-display: flex;
+    display: flex;
     align-items: center
 }
 
@@ -103,9 +103,20 @@ body {
 }
 
 .adress {
+    display: block;
     font-style: normal;
+    margin: 24px 0 24px auto;
+
+}
+
+.adress-list {
     display: flex;
     gap: 40px;
+    padding: 0;
+    margin-right: 20px;
+
+
+
 }
 
 
@@ -145,7 +156,7 @@ body {
 /**--------------- main------------- */
 .hero {
     background-color: var(--hero-bg);
-    padding: 188px 0 188px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -157,6 +168,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--white-bg);
     max-width: 496px;
+    margin: 0 auto;
+
 }
 
 .hero-button {
@@ -165,7 +178,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--white-bg);
@@ -176,6 +188,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 48px auto 0;
 
 }
 
